@@ -28,7 +28,7 @@
 .left-side{
     float:left;
     border: 0.5px lightgray solid;
-    padding-right: 15px;
+    padding-right: 40px;
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -41,24 +41,28 @@
     text-align: center;
     margin-top: -12px;
 }
+/* right side divider between Navigation and Contact us */
 .divider-line{
     border:0.3px lightgray solid;
      padding-right: 10px ;
+     margin-top: 15px;
+     margin-bottom: 25px;
 }
 .right-side{
     float:right;
     border: 0.5px lightgray solid;
-    padding-top: 20px;
-    list-style: none;
+    padding-top: 17px;
+    /* list-style: none; */
     padding-left: 10px;
+    padding-right: 12px;
 }
-/* .right-side a:hover{
-    list-style: none;
-} */
-.upper-ul li a{
-    text-align: left;
-    list-style: none;
+.right-upper{
+    margin-bottom: -0.3em;
 }
+.upper-part{
+    padding-bottom: 20px;
+}
+
 .article-one{
     padding-top: 10px;
     padding-bottom: 20px;
@@ -71,6 +75,6 @@
     background-color: rgb(2, 2, 31);
     text-align: center;
     color:whitesmoke;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }

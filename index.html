@@ -11,8 +11,11 @@
     
     <title>My Website</title>
 </head>
-<body class = "home-page">
+<body class = "home-page" id="body">
+
+    <!-- connecting java script with HTML -->
     <script src="script.js"></script>
+
     <!-- header -->
     <nav class = "header">
         <h3>My Website</h3>
@@ -33,21 +36,29 @@
         <!-- right side -->
         <div class="right-side upper-part">
             <h5>Navigation</h5>
-            <ul class = "upper-ul">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://www.vaniercollege.qc.ca/about-vanier-college/">about</a></li>
-                <li><a href="https://www.vaniercollege.qc.ca/contact-vanier/">Contact</a></li>
-            </ul> 
+           
+                <p class = "right-upper"><a href="index.html">Home</a></p>
+                <p class = "right-upper"><a href="https://www.vaniercollege.qc.ca/about-vanier-college/">about</a></p>
+                <p class = "right-upper"><a href="https://www.vaniercollege.qc.ca/contact-vanier/">Contact</a></p>
+           
             <!-- divider line -->
             <div class = "divider-line"></div>
+
             <div class="lower-part">
                 <h5>Contact us</h4>
-                <ul class=" lower-ul">
-                    <li>address: 50 Main st., Boston, MA</li>
-                    <li>Phone: (555) 555-5555</li>
-                    <li>Email: abc@gmail.com</li>
-                </ul>
-                <button  class="btn btn-info" type="submit">Click Me</button>
+                
+                    <address>
+                    address: 50 Main st., Boston, MA</br>
+                    Phone: (555) 555-5555</br>
+                    Email: abc@gmail.com
+                    </address>
+               
+                <button id="myButton" class="btn btn-info btn-block" type="submit">Click Me</button>
+                <!-- <script type = "text/javascript"
+                document.getElementById("myButton").onclick = function(){
+                    location.href = "index.html";
+                };
+            </sript> -->
                
             </div>
         </div>
